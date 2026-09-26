@@ -1,0 +1,91 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    line-height: 1.6;
+    color: #3e2723;
+    background-color: #fdfaf6;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 5%;
+    background: #5d4037;
+    color: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 2rem;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #d7ccc8;
+}
+
+header {
+    text-align: center;
+    padding: 6rem 1rem;
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&q=80&w=1600') no-repeat center center/cover;
+    color: white;
+}
+
+header h2 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+header button {
+    padding: 0.8rem 2rem;
+    font-size: 1.1rem;
+    background: #8d6e63;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+header button:hover {
+    background: #6d4c41;
+}
+
+section {
+    padding: 4rem 5%;
+    max-width: 900px;
+    margin: auto;
+    text-align: center;
+}
+
+.menu-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+    list-style: none;
+    padding: 0;
+}
+
+.menu-item {
+    background: #fff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+}
+
+footer {
+    text-align: center;
+    padding: 3rem;
+    background: #3e2723;
+    color: #d7ccc8;
+}
